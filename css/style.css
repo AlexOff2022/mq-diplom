@@ -832,7 +832,7 @@ body {
 }
 
 .popup-hidden {
-  display: block;
+  display: none;
 }
 
 @media (max-width: 641px), (min-width: 641px) and (max-width: 1200px) {
