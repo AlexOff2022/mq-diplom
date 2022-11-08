@@ -232,6 +232,7 @@ body {
 .news-image {
   background-color: #ffffff;
   object-fit: cover;
+  width: 100%;
 }
 
 .news-section:nth-child(n + 2) {
@@ -831,7 +832,7 @@ body {
 }
 
 .popup-hidden {
-  display: none;
+  display: block;
 }
 
 @media (max-width: 641px), (min-width: 641px) and (max-width: 1200px) {
@@ -887,6 +888,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     background: #eeeeee;
+  }
+
+  .news-image-box {
+    min-height: 0;
+  }
+
+  .news-text {
+    width: 100%;
   }
 
   .shop-title {
