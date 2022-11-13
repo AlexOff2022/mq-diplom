@@ -668,13 +668,17 @@ body {
 }
 
 .footer-sign {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer-sign-text {
   font-size: 0.75rem;
   font-family: "OpenSans", "Arial", sans-serif;
   font-weight: 700;
-  text-align: center;
+  text-decoration: none;
   color: #999999;
-  margin-top: 60px;
-  margin-bottom: 40px;
 }
 
 .popup-content {
@@ -962,6 +966,10 @@ body {
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
   .trends-news {
     flex-wrap: nowrap;
+  }
+
+  .trends-box {
+    width: calc(100% / 4);
   }
 }
 
